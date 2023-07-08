@@ -32,7 +32,7 @@ Follow these steps to run the script:
 1. Clone this repository to your local machine: `https://github.com/jrp2212/getNftsForOwners.git`
 
 
-2. Navigate to the project folder: `cd get-nfs-for-owner-v3`
+2. Navigate to the project folder: `cd getNftsForOwners_script.js`
 
 
 3. Open the `sample.env` file and update the values for the API Key and Wallet Address to your own values and rename file to `.env`.
