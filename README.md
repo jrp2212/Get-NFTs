@@ -29,8 +29,7 @@ Before running the script, ensure that you have Node.js, npm, and yarn installed
 
 Follow these steps to run the script:
 
-1. Clone this repository to your local machine:
-`git clone https://github.com/vszammit/get-nfs-for-owner-v3.git`
+1. Clone this repository to your local machine: `https://github.com/jrp2212/getNftsForOwners.git`
 
 
 2. Navigate to the project folder: `cd get-nfs-for-owner-v3`
