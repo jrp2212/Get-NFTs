@@ -16,7 +16,7 @@ When working with the Alchemy SDK, there are several options and best practices 
 By default, the request for NFTs has a page size of 100. If you have a large number of NFTs and want to retrieve all of them, you can implement pagination. Alchemy's API supports pagination using the `page` and `size` parameters. You can adjust the `size` parameter to specify the number of NFTs to retrieve per page and use the `page` parameter to iterate through the pages of results.
 
 ### Retrying Requests
-In case of network issues or temporary failures, it is recommended to implement a retry mechanism for your requests. This can ensure that even if a request fails initially, it can be retried after a certain delay. When implementing retries, it is important to handle rate limits and respect the guidelines provided by Alchemy's API.
+In case of network issues or temporary failures, it is recommended to implement a retry mechanism for your requests. This can ensure that even if a request fails initially, it can be retried after a certain delay. 
 
 ### Filtering and Excluding NFTs
 The Alchemy API allows you to apply filters to your NFT requests. For example, you can exclude certain NFTs based on specific criteria. The exact filtering options depend on the available fields and operators supported by Alchemy's API. You can refer to the [Alchemy API reference](https://docs.alchemy.com/reference/getnfts) for more information on how to apply filters to your requests.
