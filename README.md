@@ -27,7 +27,7 @@ Follow these steps to run the script:
 4. Initialize the project by running the following command: `yarn init --yes`
 
 
-5. Install the Alchemy SDK and the `dotenv` package running the following commands: `yarn add alchemy-sdk` and `yarn add dotenv`
+5. Install the Alchemy SDK and the `dotenv` package running the following command: `yarn add alchemy-sdk dotenv`
 
 
 6. Run the script in the terminal: `node getNftsForOwner_script.js`
