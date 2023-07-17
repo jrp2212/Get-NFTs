@@ -31,7 +31,7 @@ Follow these steps to run the script:
 6. Install the Alchemy SDK and the `dotenv` package running the following commands: `yarn add alchemy-sdk dotenv`
 
 
-7. Run the script in the terminal: `node get_nfts_for_owner.js`
+7. Run the script in the terminal: `node get_nfts.js`
 
 
 By following these steps, the script will execute and fetch the NFTs owned by the specified address, printing out the desired fields to the console.
