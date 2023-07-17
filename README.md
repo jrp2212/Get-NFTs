@@ -1,5 +1,5 @@
 ## Overview
-"This repository contains a JavaScript script that utilizes Alchemy's SDK to fetch all NFTs owned by a specified address. For each NFT, the fields below are printed, however, to see all fields refer to the [Alchemy API reference](https://docs.alchemy.com/reference/getnfts):
+This repository contains a JavaScript script that utilizes Alchemy's SDK to fetch all NFTs owned by a specified address. For each NFT, the fields below are printed, however, to see all fields refer to the [Alchemy API reference](https://docs.alchemy.com/reference/getnfts):
 
 - Name
 - Contract Address
