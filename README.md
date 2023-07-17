@@ -14,10 +14,10 @@ Before running the script, ensure that you have [Node.js, npm](https://docs.npmj
 Follow these steps to run the script:
 
 1. Clone this repository to your local machine:
-`git clone https://github.com/jrp2212/Get_NFTs_by_Address.git`
+`git clone https://github.com/jrp2212/Get-NFTs-by-Address.git`
 
 
-2. Navigate to the project folder: `cd Get_NFTs_by_Address`
+2. Navigate to the project folder: `cd Get-NFTs-by-Address`
 
 
 3. Open the `sample.env` file and update the value for the API Key to your own value and rename file to `.env`.
