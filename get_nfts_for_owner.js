@@ -12,11 +12,11 @@ const alchemy = new Alchemy(config);
 
 /**
  * Main function to fetch and print NFTs for a specific owner.
- * Retrieves the owner's address from environment variables.
- * Prints the title, contract address, token ID, and token type of each NFT owned by the owner.
  */
 const main = async () => {
-  const address = process.env.ADDRESS;
+  // Provided below is a sample address
+  // Configure accordingly
+  const address = "vitalik.eth";
   const nfts = await alchemy.nft.getNftsForOwner(address);
 
   // Print NFT details

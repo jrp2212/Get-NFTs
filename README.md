@@ -1,5 +1,5 @@
 ## Overview
-This repository contains a JavaScript script that utilizes Alchemy's SDK to fetch all NFTs owned by a specified address. For each NFT, the fields below are printed, however, to see all fields refer to the [Alchemy API reference](https://docs.alchemy.com/reference/getnfts):
+"This repository contains a JavaScript script that utilizes Alchemy's SDK to fetch all NFTs owned by a specified address. For each NFT, the fields below are printed, however, to see all fields refer to the [Alchemy API reference](https://docs.alchemy.com/reference/getnfts):
 
 - Name
 - Contract Address
@@ -9,27 +9,29 @@ This repository contains a JavaScript script that utilizes Alchemy's SDK to fetc
 
 ## Steps to Run
 
-Before running the script, ensure that you have [Node.js](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), and [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable) installed on your system. 
+Before running the script, ensure that you have [Node.js, npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), and [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable) installed on your system. 
 
 Follow these steps to run the script:
 
 1. Clone this repository to your local machine:
-`git clone https://github.com/jrp2212/getNftsForOwners.git`
+`git clone https://github.com/jrp2212/Get_NFTs_by_Address.git`
 
 
-2. Navigate to the project folder: `cd get_nfts_for_owner`
+2. Navigate to the project folder: `cd Get_NFTs_by_Address`
 
 
-3. Open the `sample.env` file and update the values for the API Key and Wallet Address to your own values and rename file to `.env`.
+3. Open the `sample.env` file and update the value for the API Key to your own value and rename file to `.env`.
+
+4. Open `get_nfts_for_owner.js` and update the value of the Wallet Address found within the main function to reflect the wallet that you will be querying. 
 
 
-4. Initialize the project by running the following command: `yarn init --yes`
+5. Initialize the project by running the following command: `yarn init --yes`
 
 
-5. Install the Alchemy SDK and the `dotenv` package running the following commands: `yarn add alchemy-sdk dotenv`
+6. Install the Alchemy SDK and the `dotenv` package running the following commands: `yarn add alchemy-sdk dotenv`
 
 
-6. Run the script in the terminal: `node get_nfts_for_owner.js`
+7. Run the script in the terminal: `node get_nfts_for_owner.js`
 
 
 By following these steps, the script will execute and fetch the NFTs owned by the specified address, printing out the desired fields to the console.
