@@ -10,9 +10,7 @@ const config = {
 const alchemy = new Alchemy(config);
 
 
-/**
- * Main function to fetch and print NFTs for a specific owner.
- */
+ // Main function to fetch and print NFTs for a specific owner. 
 const main = async () => {
   // Provided below is a sample address
   // Configure accordingly
